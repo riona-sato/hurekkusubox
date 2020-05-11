@@ -1,6 +1,155 @@
-.container{
+section{
   display: flex;
+  margin-bottom: 60px;
+  justify-content: space-between;
+}
 
+
+section:nth-child(even){
+  flex-direction:row-reverse ;
+}
+
+.pic{
+  width: 180px;
+  /* margin-right: 32px; */
+}
+
+.desc{
+  /* flex: 1; */
+  width: calc(100% - 180px - 32px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*header{
+  display: flex;
+  /* justify-content: space-between;
+
+}
+
+nav{
+  margin-left: auto;
+}
+
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+/* nav li{
+nav a{
+  /* background-color: pink;
+  width: 100px;
+  text-align: center;
+  line-height: 64px;
+  display: block;
+}
+
+nav a:hover{
+  background-color: gray;
+}*/
+
+
+
+
+
+
+/* body{
+  margin: 0;
+}
+
+header{
+  height: 200px;
+  background-color: silver;
+  /* position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div{
+  width: 50px;
+  height: 100px;
+  background-color:skyblue ;
+  /* position: absolute;
+  top: calc(50% - 20px);
+  top: calc(50% - 50px);
+} */
+
+
+
+
+
+/*html{
+  height: 100%;
+}
+body{
+  margin: 0;
+  display: flex;
+  flex-direction:column;
+  height: 100%;
+}
+
+header{
+  background-color: pink;
+  margin-bottom: 100px;
+}
+
+.Container{
+  display: flex;
+  flex: 1;
+  margin-top: 50px;
+}
+
+main{
+  background-color: skyblue;
+  flex: 1;
+}
+
+nav{
+  background-color: tomato;
+  width: 100px;
+  order: -1;
+}
+
+aside{
+  background-color: orange;
+  width: 100px;
+}
+
+footer{
+  background-color: grey;
+}*/
+
+
+
+
+
+
+
+/*.container{
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction:column;
+  /*flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: space-between;
+  /*justify-content: space-evenly;
+  align-items: flex-start;
 }
 .box {
   width: 100px;
@@ -8,13 +157,21 @@
 }
 .box1{
   background-color: orange;
-  flex: 1;
+  flex-basis: 200Px ;
+
+  /*order: 2;
+  /*flex: 1;
+  /*align-self: center;
+  
 }
 
 .box2{
   background-color:skyblue;
+  /*order: 3;
+  /*align-self: flex-end;
 }
 
 .box3{
   background-color:tomato;
-}
+  /*order: 1;
+}*/
